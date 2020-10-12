@@ -1,6 +1,6 @@
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-title: Simon Goodson's Security Blog
-description: Security blog mainly focused on the blue team
+title: SG Security Blog
+description: A blue team security blog...
 author: Simon Goodson
