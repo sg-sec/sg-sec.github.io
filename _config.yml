@@ -4,3 +4,4 @@ plugins:
 title: SG Security Blog
 description: A blue team security blog...
 author: Simon Goodson
+permalink: /blog/:year/:month/:day/:title
