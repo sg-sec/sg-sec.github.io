@@ -14,6 +14,11 @@
                                 <li><a href="/blog/tags.html">Tags</a></li>
 	    		</ul>
 			</header>
+                        <nav class="w3-sidebar w3-bar-block w3-black w3-card" style="display:none" id="mySidebar">
+                                <a class="w3-bar-item w3-button" href="/">Home</a> 
+                                <a class="w3-bar-item w3-button" href="/blog">Posts</a> 
+                                <a class="w3-bar-item w3-button" href="/blog/tags.html">Tags</a> 
+                        </nav>
 			<div class="w3-container" >
 			
 			{{ content }}
@@ -26,5 +31,13 @@
                                 <li><a href="https://blog.sg-sec.co.uk/feed.xml">RSS</a></li>
 				</ul>
 			</footer>
+                <script>
+                function w3_open() {
+                     document.getElementById("mySidebar").style.display = "block";
+                }
+                function w3_close() {
+                     document.getElementById("mySidebar").style.display = "none";
+                }
+                </script>
 		</body>
 	</html>
