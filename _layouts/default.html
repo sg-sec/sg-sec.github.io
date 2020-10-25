@@ -13,21 +13,25 @@
                                 <a class="w3-bar-item w3-button" href="/blog">Posts</a> 
                                 <a class="w3-bar-item w3-button" href="/blog/tags.html">Tags</a> 
                         </nav>
-			<header class="w3-bar w3-light-grey">
+                        <div class="w3-top">
+			    <header class="w3-bar w3-light-grey">
                                 <h2 class="w3-bar-item">SG Security Blog</h2>
                                 <button class="w3-button w3-bar-item w3-light-grey w3-xxlarge w3-right" onclick="w3_open()">&#9776;</button>
-			</header>
+			    </header>
+                        </div>
                        
 			<div class="w3-container" >
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer class="w3-container w3-light-grey">
+                        <div class="w3-bottom">
+			    <footer class="w3-container w3-light-grey">
 	    		        <a class="w3-bar-item w3-button" href="mailto:sgsec@tutanota.com">email</a>
                                 <a class="w3-bar-item w3-button" href="https://github.com/sg-sec"> github.com/sg-sec</a>
                                 <a class="w3-bar-item w3-button" href="https://blog.sg-sec.co.uk/feed.xml">rss</a>
-			</footer>
+			    </footer>
+                        </div>
                 <script>
                 function w3_open() {
                      document.getElementById("mySidebar").style.display = "block";
