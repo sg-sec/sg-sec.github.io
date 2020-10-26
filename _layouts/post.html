@@ -26,7 +26,7 @@ layout: default
         {% if page.tags contains tag %}
           {% assign sameTagCount = sameTagCount | plus: 1 %}
           {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-          {% if commonTags not contains tagmarkup %}
+          {% if commonTags contains tagmarkup %}{% else %}
               {% assign commonTags = commonTags | append: tagmarkup %}
           {% endif %}
         {% endif %}
