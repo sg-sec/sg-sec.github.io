@@ -1,0 +1,18 @@
+---
+---
+<div class="w3-card">
+            {% if post.image And post.image != "" And post.image != nil %}
+                <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+            {% else %}
+            {% endif %}
+            <div class="w3-container">
+                <p>
+                    <a href="{{ post.url }}" title="{{ post.title }}" class="PostListTitle">{{ post.title }}</a >
+                </p>
+                <hr>
+                <p>{{ post.excerpt }}</p>
+            </div>
+            <div class="w3-container">
+	        <p>{{ post.date | date_to_string }}</p>
+            </div>
+        </div>
