@@ -12,11 +12,8 @@ title: SG Security Blog
 </br>
 {% for tag in sorted_tags %}
     <h4 id="{{ tag[0] }}">{{ tag[0] }}</h4>
-    <ul>
     {% for post in tag[1] %}
-        <li>
-            <span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li>
+        {% include postlistitem.html %}
+        <br>
     {% endfor %}
-    </ul>
 {% endfor %}
