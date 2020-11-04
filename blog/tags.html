@@ -2,14 +2,16 @@
 layout: default
 title: SG Security Blog
 ---
+<h3>Tags</h3>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
     <ul>
         <li><a href="#{{ tag[0] }}"> {{ tag[0] }}</a></li>
     </ul>
 {% endfor %}
+</br>
 {% for tag in sorted_tags %}
-    <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+    <h4 id="{{ tag[0] }}">{{ tag[0] }}</h4>
     <ul>
     {% for post in tag[1] %}
         <li>
