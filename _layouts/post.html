@@ -25,7 +25,7 @@ layout: default
       {% if post.url != page.url %}
         {% if page.tags contains tag %}
           {% assign sameTagCount = sameTagCount | plus: 1 %}
-          {% capture tagvalue %} {{ tag }} {% endcapture %}
+          {% capture tagvalue %} <a href="tags.html#{{ tag }}">{{ tag }}</a> {% endcapture %}
           {% if commonTags contains tagvalue %}{% else %}
               {% assign commonTags = commonTags | append: tagvalue %}
           {% endif %}
