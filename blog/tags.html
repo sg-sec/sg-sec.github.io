@@ -5,9 +5,7 @@ title: SG Security Blog
 <h3>Tags</h3>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
-    <ul>
-        <li><a href="#{{ tag[0] }}"> {{ tag[0] }}</a></li>
-    </ul>
+        <a class="w3-text-blue" href="#{{ tag[0] }}"> {{ tag[0] }}</a>
 {% endfor %}
 <br>
 {% for tag in sorted_tags %}
