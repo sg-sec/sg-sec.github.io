@@ -8,4 +8,6 @@ tags:
 date: 2020-10-18
 ---
 
-This is a test of the tags feature.
+To start-off my security blog I thought I would discuss logging, alerting and some automated response.
+
+To be truely effective at monitoring and responding to your logs you are going to have to centralise them. Before setting up a centralised logging solution you are going to have to make sure that you are collecting the right logs. 
