@@ -6,6 +6,7 @@ tags:
     - Logging
     - GPO
 date: 2020-10-18
+published: false
 ---
 
 To start-off my security blog I thought I would discuss logging, alerting and some automated response.
