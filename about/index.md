@@ -2,7 +2,7 @@
 layout: default
 ---
 ### What’s it all about?
-This blog is my effort to share some real world examples of blue team security put in to practice. 
+This blog is my effort to share some real world examples of SecOps and blue team security put in to practice. 
 
 There are a ton of sites dedicated to hacking and red team activities but very little for us on the blue team.
 
