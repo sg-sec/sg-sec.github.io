@@ -1,7 +1,7 @@
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-title: SG Security Blog
+title: SG SecOps Journal
 description: A blue team security blog...
 author: Simon Goodson
 permalink: /blog/:year/:month/:day/:title
