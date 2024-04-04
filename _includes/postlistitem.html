@@ -1,4 +1,5 @@
-<div class="w3-card">
+<div class="w3-third">
+	<div class="w3-card" style="min-height:200px">
             {% if post.image And post.image != "" And post.image != nil %}
                 <img class="w3-mobile" src="{{ site.baseurl }}/assets/images/{{ post.image }}">
             {% else %}
@@ -12,3 +13,4 @@
 	        <p class="w3-small">{{ post.date | date_to_string }}</p>
             </div>
         </div>
+</div>
