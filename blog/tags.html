@@ -11,8 +11,10 @@ title: SG SecOps Journal
 <br>
 {% for tag in sorted_tags %}
     <h4 id="{{ tag[0] }}">Posts tagged with {{ tag[0] }}</h4>
+    <div class="w3-row-padding w3-margin-top">
     {% for post in tag[1] %}
         {% include postlistitem.html %}
         <br>
     {% endfor %}
+    </div>
 {% endfor %}
