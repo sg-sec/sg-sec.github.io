@@ -23,7 +23,7 @@ I often need to look up IP addresses to find out useful information such as the 
 #### Command Line Example
 From a command prompt (either CMD or Powershell) run the following command:
 
-`curl.exe ipinfo.io/8.8.8.8`
+`curl.exe ipinfo.io/8.8.8.8`{:.w3-codespan}
 
 <a id="item-three"></a>
 #### More Information and Examples
@@ -31,14 +31,14 @@ You'll notice that I used curl.exe rather than curl.  This is because Powershell
 
 If you want to get your internet facing IP address try this command:
 
-`curl.exe ipinfo.io/IP`
+`curl.exe ipinfo.io/IP`{:.w3-codespan}
 
 If you get certificate errors whilst running the curl command you can use the -k command argument to override the error:
 
-`curl.exe -k ipinfo.io/8.8.8.8`
+`curl.exe -k ipinfo.io/8.8.8.8`{:.w3-codespan}
 
 Use the -v command argument for verbose output:
 
-`curl.exe -v ipinfo.io/8.8.8.8`
+`curl.exe -v ipinfo.io/8.8.8.8`{:.w3-codespan}
 
 Hope this has been useful.
