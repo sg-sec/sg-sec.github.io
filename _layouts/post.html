@@ -40,7 +40,7 @@ layout: default
   
         {% if sameTagCount >= minCommonTags %}
           <div>
-          <a class="w3-text-light-grey" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}
