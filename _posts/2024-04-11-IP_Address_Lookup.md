@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using the command line to get IP address information"
-tags: Test
+tags: OSINT
 date: 2024-04-11
 published: true
 post_description: I often need to look up IP addresses to find out useful information.  This is how I do it from the command line.
