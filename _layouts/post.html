@@ -12,9 +12,6 @@ layout: default
       {{ content }}
     </div>
   
-    <hr>
-    <h4>Related Posts:</h4>
-  
     {% assign maxRelated = 4 %}
     {% assign minCommonTags = 1 %}
     {% assign maxRelatedCounter = 0 %}
@@ -35,6 +32,11 @@ layout: default
             {% endif %}
           {% endif %}
         {% endfor %}
+        
+        {% if sameTagCount = 1 %}
+            <hr>
+            <h4>Related Posts:</h4>
+        {% endif %}
   
         {% if sameTagCount >= minCommonTags %}
           <div>
@@ -47,11 +49,11 @@ layout: default
         {% endif %}
   
       {% endfor %}
-        <hr>
+      <hr>
       <div class="w3-bar">
           {{ commonTags }}
       </div>
-        <hr>
+      <hr>
   </div>
   <div class="w3-container w3-cell w3-mobile"></div>	
 </div>
