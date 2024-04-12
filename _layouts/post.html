@@ -44,12 +44,13 @@ layout: default
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}
+            <hr>
             {% break %}
           {% endif %}
         {% endif %}
   
       {% endfor %}
-      <hr>
+      
       <div class="w3-bar">
           {{ commonTags }}
       </div>
