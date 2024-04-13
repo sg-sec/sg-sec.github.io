@@ -36,14 +36,14 @@ layout: default
         {% if sameTagCount == 1 %}
             <hr>
             <h4>Related Posts:</h4>
-            <div class="w3-row">
+            <!-- <div class="w3-row"> -->
         {% endif %}
   
         {% if sameTagCount >= minCommonTags %}
-          <div class="w3-quarter w3-mobile">
+          <!-- <div class="w3-quarter w3-mobile"> -->
                {% include relatedpostlistitem.html %}
                <!-- <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> -->
-          </div>
+          <!-- </div> -->
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}
             </div>
