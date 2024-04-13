@@ -1,12 +1,12 @@
 <div class="w3-card w3-section">
         <!-- <div class="w3-row"> -->
-            <div class="w3-cell w3-red w3-mobile">
+            <div class="w3-cell w3-mobile">
                 {% if post.image And post.image != "" And post.image != nil %}
                 <img class="" style="width:100%" {% if post.image_alt_text and post.image_alt_text != "" and post.image_alt_text != nil %} alt="{{ post.image_alt_text }}" {% endif %}  src="{{ site.baseurl }}/assets/images/{{ post.image }}">
                 {% else %}
                 {% endif %}
             </div>
-            <div class="w3-cell w3-green w3-mobile w3-cell-top w3-padding">
+            <div class="w3-cell w3-mobile w3-cell-top w3-padding">
                 <p>
                     <a href="{{ post.url }}" title="{{ post.title }}" class="PostListTitle">{{ post.title }}</a >
                 </p>
