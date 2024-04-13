@@ -1,0 +1,16 @@
+div class="w3-third w3-section">
+	<div class="w3-card" style="min-height:200px">
+            {% if post.image And post.image != "" And post.image != nil %}
+                <img style="width:100%" {% if post.image_alt_text and post.image_alt_text != "" and post.image_alt_text != nil %} alt="{{ post.image_alt_text }}" {% endif %}  src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+            {% else %}
+            {% endif %}
+            <div class="w3-container w3-mobile">
+                <p>
+                    <a href="{{ post.url }}" title="{{ post.title }}" class="PostListTitle">{{ post.title }}</a >
+                </p>
+                <hr>
+                <p>{{ post.post_description }}</p>
+	        <p class="w3-small">{{ post.date | date_to_string }}</p>
+            </div>
+        </div>
+</div>
