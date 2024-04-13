@@ -42,7 +42,7 @@ layout: default
         {% if sameTagCount >= minCommonTags %}
           <div class="w3-quarter w3-mobile">
                {% include relatedpostlistitem.html %}
-               #<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               <!-- <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> -->
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}
