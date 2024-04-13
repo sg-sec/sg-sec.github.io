@@ -40,7 +40,7 @@ layout: default
         {% endif %}
   
         {% if sameTagCount >= minCommonTags %}
-          <div>
+          <div class="w3-quarter w3-mobile">
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
