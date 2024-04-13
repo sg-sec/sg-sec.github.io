@@ -36,6 +36,7 @@ layout: default
         {% if sameTagCount == 1 %}
             <hr>
             <h4>Related Posts:</h4>
+            <div class="w3-row">
         {% endif %}
   
         {% if sameTagCount >= minCommonTags %}
@@ -44,6 +45,7 @@ layout: default
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}
+            </div>
             <hr>
             {% break %}
           {% endif %}
