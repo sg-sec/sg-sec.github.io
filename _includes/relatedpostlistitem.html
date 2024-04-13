@@ -2,7 +2,7 @@
         <div class="w3-row">
             <div class="w3-quarter">
                 {% if post.image And post.image != "" And post.image != nil %}
-                <img class="w3-padding" style="width:100%" {% if post.image_alt_text and post.image_alt_text != "" and post.image_alt_text != nil %} alt="{{ post.image_alt_text }}" {% endif %}  src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+                <img class="" style="width:100%" {% if post.image_alt_text and post.image_alt_text != "" and post.image_alt_text != nil %} alt="{{ post.image_alt_text }}" {% endif %}  src="{{ site.baseurl }}/assets/images/{{ post.image }}">
                 {% else %}
                 {% endif %}
             </div>
