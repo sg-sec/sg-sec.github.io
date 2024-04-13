@@ -1,16 +1,16 @@
 <div class="w3-card w3-section">
-        <div class="w3-row">
-            <div class="w3-quarter">
+        <!-- <div class="w3-row"> -->
+            <div class="w3-cell w3-red">
                 {% if post.image And post.image != "" And post.image != nil %}
                 <img class="" style="width:100%" {% if post.image_alt_text and post.image_alt_text != "" and post.image_alt_text != nil %} alt="{{ post.image_alt_text }}" {% endif %}  src="{{ site.baseurl }}/assets/images/{{ post.image }}">
                 {% else %}
                 {% endif %}
             </div>
-            <div class="w3-threequarter w3-padding">
+            <div class="w3-cell w3-green">
                 <p>
                     <a href="{{ post.url }}" title="{{ post.title }}" class="PostListTitle">{{ post.title }}</a >
                 </p>
 	        <p class="w3-small">{{ post.date | date_to_string }}</p>
             </div>
-        </div>
+        <!-- </div> -->
 </div>
