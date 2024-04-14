@@ -9,15 +9,11 @@ image: Remote_Administration.jpg
 image_alt_text: Large hand controlling puppets
 ---
 
+Not strictly a security topic but I use the the Remote Server Administrator Tools (RSAT) a lot and its one of the first things I install on a new machine.  This is a quick guide on installing the Remote Server Administrator Tools (RSAT) using PowerShell.
+
 **Table of contents:**
-- [Introduction](#item-one)
 - [List the Installed Tools](#item-two)
 - [Install all Tools](#item-three)
-
-<!-- headings -->
-<a id="item-one"></a>
-#### Introduction
-Not strictly a security topic but I use the the Remote Server Administrator Tools (RSAT) a lot and its one of the first things I install on a new machine.  This is a quick guide on installing the Remote Server Administrator Tools (RSAT) using PowerShell.
 
 <a id="item-two"></a>
 #### List the Installed Tools
