@@ -54,10 +54,12 @@ layout: default
   
       {% endfor %}
       
-      <div class="w3-bar">
-          {{ commonTags }}
+      {% if commonTags.size > 1 %}
+          <div class="w3-bar">
+              {{ commonTags }}
+          </div>
           </br>
-      </div>
+      {% end if %}
   </div>
   <div class="w3-container w3-cell w3-mobile"></div>	
 </div>
