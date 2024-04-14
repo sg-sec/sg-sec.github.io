@@ -8,16 +8,11 @@ post_description: I often need to look up IP addresses to find out useful inform
 image: IP_address_search.jpg
 image_alt_text: Magnifying glass zooming in on scrolling IP addresses
 ---
+I often need to look up IP addresses to find out useful information such as the geo-location.  This is how I do it from the command line.
 
 **Table of contents:**
-- [Introduction](#item-one)
 - [Command Line Example](#item-two)
 - [More Information and Examples](#item-three)
-
-<!-- headings -->
-<a id="item-one"></a>
-#### Introduction
-I often need to look up IP addresses to find out useful information such as the geo-location.  This is how I do it from the command line.
 
 <a id="item-two"></a>
 #### Command Line Example
