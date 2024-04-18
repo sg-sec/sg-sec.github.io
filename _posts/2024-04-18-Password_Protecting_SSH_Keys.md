@@ -18,7 +18,6 @@ Although not ideal from time to time it is required to store SSH keys (PEM files
 <a id="item-one"></a>
 #### Password Protecting the SSH Key
 <div class="w3-panel w3-light-blue"><p><span class="w3-badge w3-indigo">i</span> This process presumes that your keys are stored under c:\users\username\.ssh</p></div>
-<span class="w3-badge w3-indigo">i</span>This process presumes that your keys are stored under c:\users\username\.ssh {:.w3-light-blue}
 
 From the command line run the following command:
 
