@@ -3,7 +3,7 @@ layout: post
 title: "Password Protecting SSH Keys (PEM files)"
 tags: SSH
 date: 2024-04-18
-published: false
+published: true
 image: Secure_SSH.jpg
 image_alt_text: A pad lock sitting on a sheild with a golden auroa
 ---
