@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Installing RSAT using PowerShell"
-tags: [PowerShell, Administration]
+title: "Installing RSAT using Powershell"
+tags: [Powershell, Administration]
 date: 2024-04-12
 published: true
-post_description: A quick guide on installing the Remote Server Administrator Tools (RSAT) using PowerShell.
+post_description: A quick guide on installing the Remote Server Administrator Tools (RSAT) using Powershell.
 image: Remote_Administration.jpg
 image_alt_text: Large hand controlling puppets
 ---
