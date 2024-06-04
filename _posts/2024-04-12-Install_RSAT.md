@@ -19,12 +19,12 @@ Not strictly a security topic but I use the the Remote Server Administrator Tool
 #### List the Installed Tools
 From a Powershell command prompt run the following command to see if any of the RSAT tools are already installed:
 
-`Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property DisplayName, State`{:.w3-codespan}
+`Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property DisplayName, State`{:.w3-code}
 
 <a id="item-three"></a>
 #### Install all Tools
 From a Administrator Powershell command prompt run the following command to install all of the tools :
 
-`Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability -Online`{:.w3-codespan}
+`Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability -Online`{:.w3-code}
 
 If you only want to install a particular tool then change the wild card to be the name of the tool required.
