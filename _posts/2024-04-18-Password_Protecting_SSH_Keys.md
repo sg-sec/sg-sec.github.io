@@ -21,7 +21,7 @@ Although not ideal from time to time it is required to store SSH keys (PEM files
 
 From the command line run the following command:
 
-`ssh-keygen -p -f .ssh/name_of_file`{:.w3-codespan}
+`ssh-keygen -p -f .ssh/name_of_file`{:.w3-code}
 
 You will then be asked to enter passphrase.  Enter a strong passphrase and store it in your password vault.
 
@@ -31,5 +31,5 @@ Now when you use the key you will be asked to provide a passphrase for the key.
 #### Using the Key
 Example:
 
-`ssh -i .\Example_Key.pem user_name@server_name`{:.w3-codespan}
+`ssh -i .\Example_Key.pem user_name@server_name`{:.w3-code}
 
