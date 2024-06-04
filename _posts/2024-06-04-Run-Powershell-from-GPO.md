@@ -15,3 +15,6 @@ I find the following configuration to be more reliable.
 
 #### Example Configuration
 In your GPO go to Computer Configuration > Policies > Windows Settings > Scripts > Startup (or Shutdown) and select the Scripts tab (**not the PowerShell Scripts tab**).
+
+Set the Script Name field to be:
+`%windir%\System32\WindowsPowerShell\v1.0\powershell.exe`{:.w3-codespan}
