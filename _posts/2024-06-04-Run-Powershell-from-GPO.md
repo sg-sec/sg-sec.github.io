@@ -14,4 +14,4 @@ For some reason I have found that this doesn’t work every time.
 I find the following configuration to be more reliable.
 
 #### Example Configuration
-
+In your GPO go to Computer Configuration > Policies > Windows Settings > Scripts > Startup (or Shutdown) and select the Scripts tab (**not the PowerShell Scripts tab**).
