@@ -4,7 +4,7 @@ title: "Run Powershell from a GPO"
 tags: Powershell GPO
 date: 2024-06-04
 published: true
-image: powershell_from_gpo/powershell_from_gpo.jpg
+image: ./powershell_from_gpo/powershell_from_gpo.jpg
 image_alt_text: Powerful super hero with Powershell command prompts
 ---
 <!-- Description of article -->
