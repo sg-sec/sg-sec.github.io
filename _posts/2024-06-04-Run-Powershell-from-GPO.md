@@ -19,3 +19,7 @@ In your GPO go to Computer Configuration > Policies > Windows Settings > Scripts
 Set the Script Name field to be:
 
 `%windir%\System32\WindowsPowerShell\v1.0\powershell.exe`{:.w3-code}
+
+Set the Script Parameters field to be:
+
+`-Noninteractive -ExecutionPolicy Bypass –Noprofile -file <Path to script in double quotes>`{:.w3-code}
