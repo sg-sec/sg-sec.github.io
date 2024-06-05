@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Adding a Git Bash profile to Windows Terminal"
-tags: Test
+tags: Git
 date: 2024-06-05
-published: false
+published: true
 image: Terminal_Coding.jpg
 image_alt_text: Image of a terminal with code
 ---
