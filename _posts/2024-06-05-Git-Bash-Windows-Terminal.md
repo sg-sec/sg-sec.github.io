@@ -19,6 +19,8 @@ A quick guide on how to configure a Git Bash profile in Windows Terminal
 3. Select the ***Add New Profile*** button.
 4. Click on the ***New Empty Profile*** button.
 5. Set the ***Name*** field to ***Git Bash***
-6. Set the ***Command Line field*** to be `C:\Users\<username>\AppData\Local\Programs\Git\bin\bash.exe`{:.w3-code}
-7. Set the ***Starting Directory*** to be `C:\git`{:.w3-code}
-8. Click on Save.
+6. Set the ***Command Line field*** to be:
+   `C:\Users\<username>\AppData\Local\Programs\Git\bin\bash.exe`{:.w3-code}
+7. Set the ***Starting Directory*** to be:
+   `C:\git`{:.w3-code}
+9. Click on Save.
